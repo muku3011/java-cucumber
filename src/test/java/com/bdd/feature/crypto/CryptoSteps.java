@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import java.nio.charset.StandardCharsets;
 
-public class Steps {
+public class CryptoSteps {
 
     private String encryptedString;
 
@@ -35,4 +35,5 @@ public class Steps {
         String decryptedText = DecryptAesGcm.decrypt(encryptedString, password);
         Assert.assertEquals(plainText, decryptedText);
     }
+
 }
