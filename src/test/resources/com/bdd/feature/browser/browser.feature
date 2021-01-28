@@ -1,7 +1,7 @@
 Feature: Basic web ui testing in browser
 
-  Background:
-    Given Setup driver path
+  #Background:
+    #Given Setup driver path
 
   Rule: Open and Search
 
